@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Test Object Demo Mar 23</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>mars23</value>
+    </caseValues>
+    <fields>
+        <label><!-- Date Field --></label>
+        <name>Date_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Field --></label>
+        <name>Test_Field__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Error Msg --></errorMessage>
+        <name>Rule1</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Error Msg --></errorMessage>
+        <name>VRR</name>
+    </validationRules>
+</CustomObjectTranslation>

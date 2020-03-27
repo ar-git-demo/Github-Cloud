@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>New Object</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>news</value>
+    </caseValues>
+    <fields>
+        <label><!-- Feb 3 Demo Object --></label>
+        <name>Feb_3_Demo_Object__c</name>
+        <relationshipLabel><!-- news --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Test Field Feb 4 --></label>
+        <name>Test_Field_Feb_4__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
