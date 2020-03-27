@@ -2357,6 +2357,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Test_Object_Mar26__c.Checcee__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Test_Object_Mar_4__c.New_Test__c</field>
         <readable>true</readable>
     </fieldPermissions>
