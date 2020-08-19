@@ -6,12 +6,22 @@
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
+        <application>standard__AllTabSet</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>standard__AppLauncher</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__Chatter</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Commerce</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
@@ -91,6 +101,14 @@
         <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
+        <apexClass>ApexClassLatamTest_GC</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ApexClassLatam_GC</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>BotController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -125,6 +143,10 @@
     <classAccesses>
         <apexClass>BotTest</apexClass>
         <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CustomApex_HWK</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>DreamHouseSampleDataController</apexClass>
@@ -276,6 +298,11 @@
     </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>AR_Object_Jul30__c.New_CB_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.AccountNumber</field>
         <readable>true</readable>
@@ -296,6 +323,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.AutorabitExtId__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.BillingAddress</field>
         <readable>true</readable>
@@ -314,6 +346,16 @@
         <editable>false</editable>
         <field>Account.DandbCompanyId</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Data_Quality_Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Data_Quality_Score__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -444,6 +486,11 @@
         <editable>false</editable>
         <field>Account.YearStarted</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Apr30_Object__c.Test_Field__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -637,6 +684,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Bot_Command__c.StDa__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Bot_Command__c.Test_Field__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -689,6 +741,16 @@
         <editable>true</editable>
         <field>Campaign.BudgetedCost</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Campaign.Data_Quality_Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Campaign.Data_Quality_Score__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -842,6 +904,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.AutorabitExtId__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.BusinessHoursId</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -859,6 +926,16 @@
         <editable>true</editable>
         <field>Case.ContactId</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.Data_Quality_Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.Data_Quality_Score__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -1016,6 +1093,26 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.AR_Exercise1ChanuV1__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.AR_Exercise1Chanu__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.AR_Exercise1_Jaya__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.AR_Exercise1__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.AccountId</field>
         <readable>true</readable>
@@ -1031,6 +1128,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.AutorabitExtId__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.Birthdate</field>
         <readable>true</readable>
@@ -1039,6 +1141,16 @@
         <editable>false</editable>
         <field>Contact.CleanStatus</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Data_Quality_Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Data_Quality_Score__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -1361,6 +1473,16 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Contract.Data_Quality_Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contract.Data_Quality_Score__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contract.Description</field>
         <readable>true</readable>
@@ -1453,6 +1575,16 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>EngagementChannelType.ContactPointType</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Event.Data_Quality_Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Event.Data_Quality_Score__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1621,6 +1753,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>July_Object__c.Test_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Lead.Address</field>
         <readable>true</readable>
@@ -1649,6 +1786,16 @@
         <editable>false</editable>
         <field>Lead.DandbCompanyId</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.Data_Quality_Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.Data_Quality_Score__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -1772,7 +1919,62 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>May_21_Test_Object__c.New_Test_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>May_29_Custom_Obj__c.May_29_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>MyObject_HWK__c.Field1__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>MyObject_HWK__c.Field2__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>NG_May_22_Object__c.NG_May_22_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>New_Object_Apr01__c.Test_Field_Demo__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>New_Object_Apr01__c.Test_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>New_Object_Apr06__c.Test_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>New_Object_Aug13__c.Test_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>New_Object_Demo_Mar_10__c.New_Field_10mar__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>New_Object_J13__c.Test_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>New_Object_Jul17__c.Test_Field__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1807,6 +2009,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Object_Demo_June_24__c.Test_Fields__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Object_Demo__c.Test_Field__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1819,6 +2026,11 @@
         <editable>true</editable>
         <field>Opportunity.Amount</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.AutorabitExtId__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -1834,6 +2046,16 @@
         <editable>true</editable>
         <field>Opportunity.CurrentGenerators__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Data_Quality_Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Data_Quality_Score__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -2261,6 +2483,16 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Task.Data_Quality_Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Task.Data_Quality_Score__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Task.Description</field>
         <readable>true</readable>
@@ -2292,7 +2524,57 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Test_June_17_Object__c.New_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Test_Mar31_object__c.New_field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Test_Obj_Apr14__c.New_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Test_Object_ARDemo_Jan_16__c.Test_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Test_Object_Apr23_demo__c.Field_Test_Demo__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Test_Object_Apr23_demo__c.Test_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Test_Object_Apr9__c.Test_Field_Apr9__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Test_Object_Demo_Apr10__c.New_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Test_Object_Demo_Apr10__c.Test_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Test_Object_Demo_Apr22__c.TField__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Test_Object_Demo_Aug7__c.Test_Field__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2342,6 +2624,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Test_Object_Demo_May_12__c.New_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Test_Object_Demo__c.Salary_Fld__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -2352,7 +2639,27 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Test_Object_J16__c.New_Field_J16__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Test_Object_July10__c.Test_Field_July10__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Test_Object_Mar24__c.Test_Object_Demo_Mar_23__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Test_Object_Mar26__c.Checcee__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Test_Object_Mar26__c.New_Field_Test__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2362,17 +2669,47 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Test_Object_May_11__c.Test_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Test_Object_May_21__c.Close_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Test_Object_May_7__c.Test_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Test_VCS_Obj__c.Test_Field__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>AR_Object_Jul30__c-AR Object Jul30 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Account-Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Address-Address Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Apr30_Object__c-Apr30 Object Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Asset-Asset Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>AssetRelationship-Asset Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AssignedResource-Assigned Resource Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AssociatedLocation-Associated Location Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Bot_Command__c-Bot Action Layout</layout>
@@ -2462,10 +2799,25 @@
         <layout>Individual-Individual Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>JobProfile-Job Profile Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>July_Object__c-July - Object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Lead-Lead Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Location-Location Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Macro-Macro Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MaintenanceAsset-Maintenance Asset Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MaintenancePlan-Maintenance Plan Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Mar5objectTest__c-Mar5objectTest Layout</layout>
@@ -2477,7 +2829,34 @@
         <layout>Mar_Test_Object__c-Mar Test Object Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>May_21_Test_Object__c-May 21 Test Object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>May_29_Custom_Obj__c-May 29 Custom Obj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MyObject_HWK__c-MyObject HWK Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>NG_May_22_Object__c-NG May 22 Object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>New_Object_Apr01__c-New Object Apr01 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>New_Object_Apr06__c-New Object Apr06 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>New_Object_Aug13__c-New Object Aug13 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>New_Object_Demo_Mar_10__c-New Object Demo Mar 10 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>New_Object_J13__c-New Object J13 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>New_Object_Jul17__c-New Object Jul17 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>New_Object_Mar20__c-New Object Mar20 Layout</layout>
@@ -2498,7 +2877,13 @@
         <layout>Object_Demo_Jan_16__c-Object Demo Jan 16 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Object_Demo_June_24__c-Object Demo June 24 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Object_Demo__c-Object Demo Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OperatingHours-Operating Hours Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Opportunity-Opportunity Layout</layout>
@@ -2522,13 +2907,49 @@
         <layout>Product2-Product Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>ProductConsumed-Product Consumed Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ProductConsumptionSchedule-Product Consumption Schedule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProductItem-Product Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProductItemTransaction-Product Item Transaction Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProductRequest-Product Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProductRequestLineItem-Product Request Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProductRequired-Product Required Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProductTransfer-Product Transfer Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Property__c-Property Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>QuickText-Quick Text Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>QuickTst__c-QuickTst Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ResourceAbsence-Resource Absence Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ResourcePreference-Resource Preference Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ReturnOrder-Return Order Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ReturnOrderLineItem-Return Order Line Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Scorecard-Scorecard Layout</layout>
@@ -2540,6 +2961,39 @@
         <layout>ScorecardMetric-Scorecard Metric Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>ServiceAppointment-Service Appointment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceCrew-Service Crew Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceCrewMember-Service Crew Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceResource-Service Resource Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceResourceCapacity-Resource Capacity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceResourceSkill-Service Resource Skill Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceTerritory-Service Territory Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceTerritoryMember-Service Territory Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Shift-Shift Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Shipment-Shipment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SkillRequirement-Skill Requirement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Solution-Solution Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -2549,7 +3003,34 @@
         <layout>Test_Field_Mar_4__c-Test Field Mar 4 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Test_June_17_Object__c-Test June 17 Object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test_Mar31_object__c-Test Mar31 object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test_Obj_Apr14__c-Test Obj demo Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Test_Object_ARDemo_Jan_16__c-Test Object ARDemo Jan 16 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test_Object_Apr20__c-Test Object Apr20 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test_Object_Apr23_demo__c-Test Object Apr23 demo Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test_Object_Apr9__c-Test Object Apr9 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test_Object_Demo_Apr10__c-Test Object Demo Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test_Object_Demo_Apr22__c-Test Object Demo Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test_Object_Demo_Aug7__c-Test Object Demo Aug7 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Test_Object_Demo_Feb27__c-Test Object Demo Layout</layout>
@@ -2573,10 +3054,19 @@
         <layout>Test_Object_Demo_Mar_23__c-Test Object Demo Mar 23 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Test_Object_Demo_May_12__c-Test Object Demo May 12 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Test_Object_Demo__c-Test Object Demo Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Test_Object_Feb_26__c-Test Object Feb 26 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test_Object_J16__c-Test Object J16 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test_Object_July10__c-Test Object July10 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Test_Object_Mar24__c-Test Object Mar24 Layout</layout>
@@ -2591,7 +3081,37 @@
         <layout>Test_Object_Mar_4__c-Test Object Mar 4 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Test_Object_May_11__c-Test Object May 11 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test_Object_May_13__c-Test Object May 13 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test_Object_May_21__c-Test Object May 21 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test_Object_May_7__c-Test Object May 7 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Test_VCS_Obj__c-Test VCS Obj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test__c-Test Object June 18 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TimeSheet-Time Sheet Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TimeSheetEntry-Time Sheet Entry Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TimeSlot-Time Slot Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Tst_Obj_Aug12__c-Tst Obj Aug12 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Tst_Object_Apr17__c-Tst Object Apr17 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>User-User Layout</layout>
@@ -2604,6 +3124,18 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkOrder-Work Order Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkOrderLineItem-Work Order Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkType-Work Type Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkTypeGroup-Work Type Group Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>demo_test__c-demo test Layout</layout>
@@ -2743,6 +3275,14 @@
         <visible>false</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
+        <tab>AR_Object_Jul30__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Apr30_Object__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Bot_Command__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -2787,6 +3327,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>July_Object__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Mar5objectTest__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -2799,7 +3343,39 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>May_21_Test_Object__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>May_29_Custom_Obj__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>NG_May_22_Object__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>New_Object_Apr01__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>New_Object_Apr06__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>New_Object_Aug13__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>New_Object_Demo_Mar_10__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>New_Object_J13__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>New_Object_Jul17__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -2823,6 +3399,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Object_Demo_June_24__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Object_Demo__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -2843,7 +3423,39 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Test_June_17_Object__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Test_Mar31_object__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Test_Object_ARDemo_Jan_16__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Test_Object_Apr20__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Test_Object_Apr23_demo__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Test_Object_Apr9__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Test_Object_Demo_Apr10__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Test_Object_Demo_Apr22__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Test_Object_Demo_Aug7__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -2875,11 +3487,23 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Test_Object_Demo_May_12__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Test_Object_Demo__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>Test_Object_Feb_26__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Test_Object_J16__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Test_Object_July10__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -2899,7 +3523,35 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Test_Object_May_11__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Test_Object_May_13__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Test_Object_May_21__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Test_Object_May_7__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Test_VCS_Obj__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Test__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Tst_Obj_Aug12__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Tst_Object_Apr17__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -3122,6 +3774,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>EnableNotifications</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>FieldServiceAccess</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

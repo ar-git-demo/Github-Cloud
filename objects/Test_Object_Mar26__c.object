@@ -160,6 +160,14 @@
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
+    <fields>
+        <fullName>New_Field_Test__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>New Field Test</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
     <label>Test Object Mar26</label>
     <listViews>
         <fullName>All</fullName>
@@ -173,5 +181,11 @@
     <pluralLabel>tets</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>VR</fullName>
+        <active>true</active>
+        <errorConditionFormula>$Profile.Name = &quot;Admin&quot;</errorConditionFormula>
+        <errorMessage>Error Msg</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>

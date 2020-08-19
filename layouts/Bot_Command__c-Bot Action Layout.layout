@@ -35,6 +35,10 @@
                 <behavior>Edit</behavior>
                 <field>Cal_Time__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>StDa__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

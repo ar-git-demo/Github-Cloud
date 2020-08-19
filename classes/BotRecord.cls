@@ -1,5 +1,6 @@
 public class BotRecord {
 
+//Change made now
     @AuraEnabled 
     public List<BotField> fields { get;set; }
     

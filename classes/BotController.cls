@@ -1,8 +1,9 @@
-// Test Change
+//Change June 26
 public with sharing class BotController {
-//M20 Demo 
     class HandlerMapping {
-//D21 Change
+
+
+//Merge June
         public String handlerClassName;
         public Pattern utterancePattern;
 
@@ -10,11 +11,9 @@ public with sharing class BotController {
             this.handlerClassName = handlerClassName;
             this.utterancePattern = Pattern.compile(patternStr);
         }
-
-
     }
     static List<HandlerMapping> handlerMappings;
-  
+  //Change made today
     static {
         List<Bot_Command__c> commands = [SELECT apex_class__c, pattern__c FROM Bot_Command__c WHERE Active__c = True ORDER BY Name];
         System.debug(commands);
@@ -24,7 +23,6 @@ public with sharing class BotController {
         }
         handlerMappings = mappings;
     }
-    //ASAP
     @AuraEnabled
     public static BotResponse submit(String utterance, Map<String, String> session, String fileName, String fileContent) {
         
@@ -59,5 +57,5 @@ public with sharing class BotController {
         }
         
     }
-    
+    //End Of Line
 }
