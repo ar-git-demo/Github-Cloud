@@ -1,5 +1,5 @@
 global with sharing class EinsteinVisionController {
-    
+    //Class Changes Aug 19
     public static String VISION_API = 'https://api.metamind.io/v1/vision';
     private static final Dreamhouse_Settings__c settings = Dreamhouse_Settings__c.getOrgDefaults();
 
@@ -10,7 +10,7 @@ global with sharing class EinsteinVisionController {
         public Double probability {get;set;}
     }
 
-    // Test Change July 10
+    //Comment Made Now
     private static String getAccessToken() {
         if (settings == null || String.isEmpty(settings.Einstein_Vision_Email__c)) {
             throw new AuraHandledException('Cannot create Einstein Vision token: "Einstein Vision Email" not defined in Custom Settings');
@@ -26,7 +26,7 @@ global with sharing class EinsteinVisionController {
         keyContents = keyContents.replace('-----END RSA PRIVATE KEY-----', '');
         keyContents = keyContents.replace('\n', '');
 
-        // Get a token
+        //Create a New Token
         JWT jwt = new JWT('RS256');
         jwt.pkcs8 = keyContents; // Comment this if you are using jwt.cert
         jwt.iss = 'developer.force.com';
@@ -218,7 +218,7 @@ global with sharing class EinsteinVisionController {
     
     private static List<Prediction> predictInternal(String sample, String access_token, String model, boolean isBase64) {
         string contentType = HttpFormBuilder.GetContentType();
-        //  Form Composition
+        //Form Composition
         string form64 = '';
         
         form64 += HttpFormBuilder.WriteBoundary();
@@ -276,5 +276,5 @@ global with sharing class EinsteinVisionController {
         }
         return(predictions);
     }
-//End of Line
+//End
 }
