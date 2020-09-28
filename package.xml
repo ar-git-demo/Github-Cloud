@@ -160,6 +160,7 @@
         <name>CustomApplication</name>
     </types>
     <types>
+        <members>AR_ExerciseObject1__c.Test_Field__c</members>
         <members>Account.AccountNumber</members>
         <members>Account.AccountSource</members>
         <members>Account.Active__c</members>
@@ -1062,6 +1063,7 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>AR_ExerciseObject1__c</members>
         <members>Account</members>
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
@@ -1248,6 +1250,7 @@
         <name>CustomObjectTranslation</name>
     </types>
     <types>
+        <members>AR_ExerciseObject1__c</members>
         <members>Aug19_Demo_Object__c</members>
         <members>Bot_Command__c</members>
         <members>Broker__c</members>
@@ -1356,6 +1359,7 @@
         <name>HomePageLayout</name>
     </types>
     <types>
+        <members>AR_ExerciseObject1__c-AR_ExerciseObject1 Layout</members>
         <members>Account-Account %28Marketing%29 Layout</members>
         <members>Account-Account %28Sales%29 Layout</members>
         <members>Account-Account %28Support%29 Layout</members>
@@ -1461,6 +1465,7 @@
         <name>Layout</name>
     </types>
     <types>
+        <members>AR_ExerciseObject1__c.All</members>
         <members>Account.AllAccounts</members>
         <members>Account.MyAccounts</members>
         <members>Account.NewLastWeek</members>
@@ -1627,7 +1632,9 @@
         <members>Silver Partner User</members>
         <members>SolutionManager</members>
         <members>Standard</members>
+        <members>Standard HMSA Base</members>
         <members>StandardAul</members>
+        <members>Vlocity User</members>
         <members>Work%2Ecom Only User</members>
         <members>nCino - Lite Seat Profile</members>
         <members>nCino - Premium CRM Profile</members>

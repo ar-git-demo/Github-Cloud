@@ -1,21 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <classAccesses>
+        <apexClass>BotField</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>EinsteinVisionController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>AR_ExerciseObject1__c.Test_Field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Aug19_Demo_Object__c.New_Test_Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>AR_ExerciseObject1__c-AR_ExerciseObject1 Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Aug19_Demo_Object__c-Aug19 Demo Object Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>QuickTst__c-QuickTst Layout</layout>
     </layoutAssignments>
+    <tabVisibilities>
+        <tab>AR_ExerciseObject1__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>Aug19_Demo_Object__c</tab>
         <visibility>Hidden</visibility>
